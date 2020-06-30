@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">myVideoPlayer</string>
+    <string name="download_txt">下载</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="user_name_hint">请输入用户名</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_phone">请输入手机号</string>
+    <string name="register_email">请输入邮箱地址</string>
+    <string name="register_text">用户注册</string>
+    <string name="save">保存</string>
+    <string name="no_signature">这个用户有点懒，没有签名~</string>
+    <string name="local">本地视频</string>
+    <string name="collection">我的收藏</string>
+    <string name="heart">我的喜欢</string>
+</resources>

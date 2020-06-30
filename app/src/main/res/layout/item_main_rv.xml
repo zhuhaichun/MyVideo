@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.android.haichun.myvideoplayer.ui.CustomJzvdStd
+        android:id="@+id/item_jzvd_std"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <RelativeLayout
+        android:id="@+id/item_rv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_rv_head_iv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_rv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/item_rv_head_iv"
+            android:layout_toStartOf="@id/item_rv_comment"
+            android:text="哈哈哈哈"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_rv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/item_rv_heart"
+            android:drawableStart="@drawable/comment"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:text="1234"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_rv_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:drawableStart="@drawable/heart"
+            android:drawablePadding="6dp"
+            android:gravity="center"
+            android:text="1234"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
